@@ -14,7 +14,7 @@ class SaveToFileTool(Tool):
                 "description" : "The full text to save, in markdown.",
             },
             "filename" : {
-                "tyre" : "string",
+                "type" : "string",
                 "description" : "Filename to save , eg , 'report.md'",
             },
         }
