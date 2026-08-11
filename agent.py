@@ -2,7 +2,7 @@ import os
 from smolagents import CodeAgent , InferenceClientModel 
 
 model = InferenceClientModel(
-    model_id = "Qwen/Qwen2.5-72B-Instruct",
+    model_id = "Qwen/Qwen2.5-7B-Instruct",
     token=os.environ["HF_TOKEN"],
 )
 
