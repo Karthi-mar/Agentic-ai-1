@@ -1,5 +1,5 @@
 import os 
-from smolagents import CodeAgent , InferenceClientModel , DuckDuckGoSearchTool 
+from smolagents import CodeAgent , InferenceClientModel , DuckDuckGoSearchTool , Tool
 
 
 class SaveToFileTool(Tool):
