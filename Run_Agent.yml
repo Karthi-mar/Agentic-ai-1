@@ -1,5 +1,8 @@
 name: Run Agent
 
+on: 
+  workflow_dispatch: 
+  
 job:
   run:
     runs-on: ubuntu-latest
